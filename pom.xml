@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.picshare</groupId>
+    <artifactId>picture-sharing</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>picture-sharing</name>
+    <description>聚合模块</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>picshare-picture</module>
+        <module>picshare-member</module>
+        <module>picshare-comment</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>picshare-common</module>
+        <module>picshare-gateway</module>
+    </modules>
+
+</project>

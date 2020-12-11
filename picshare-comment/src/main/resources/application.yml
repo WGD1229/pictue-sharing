@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin3:123456@121.199.75.133:27017/picshare_picms
+  application:
+    name: picshare-comment
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.199.75.133:8848
